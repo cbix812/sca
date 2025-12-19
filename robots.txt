@@ -1,0 +1,14 @@
+# robots.txt for sca-63aq.onrender.com
+# Allow all crawlers by default, block common private paths
+
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Allow: /
+
+# Optional: slow down aggressive crawlers (seconds)
+# Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://sca-63aq.onrender.com/sitemap.xml
